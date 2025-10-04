@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Django or other local files (optional)
+db.sqlite3
