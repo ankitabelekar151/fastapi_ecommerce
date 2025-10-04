@@ -41,16 +41,16 @@ Supports JWT authentication, email verification, password reset, admin-only prod
 git clone git@github.com:ankitabelekar151/fastapi_ecommerce.git
 cd fastapi_ecommerce
 
-2. Create and activate virtual environment
+Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate    # Linux/Mac
 venv\Scripts\activate       # Windows
 
 
-3. Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-4. Configure environment variables
+Configure environment variables
 
 Create a .env file in the root directory:
 
@@ -59,6 +59,6 @@ SECRET_KEY=your_secret_key
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 REFRESH_TOKEN_EXPIRE_DAYS=7
 
-5. Run the application
+Run the application
 uvicorn main:app --reload
 
